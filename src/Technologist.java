@@ -1,8 +1,11 @@
-public class Technologist
-{
-    private String firstName = "empty";
-    // Getter
 
+
+abstract class Technologist {
+    private String firstName = "empty";
+    protected String firstN; //visibility to same package and subclasses
+    protected String company = "Strategio";
+
+    // Getter
     public String getFirstName()
     {
         return firstName;
@@ -14,20 +17,9 @@ public class Technologist
         this.firstName = newFirstName;
     }
 
-    protected String firstN; //visibility to same package and subclasses
-    protected String company = "Strategio";
+    public abstract void study();
 
-    public void study() {
-        System.out.println("I am studying!");
+    public void attendClass() {
+        System.out.println("I am attending class");
     }
-
 }
-
-
-//abstract class Technologist {
-//    public abstract void study() //abstract method
-//    public void attendClass() //regular method
-//    {
-//        System.out.println("I am attending class");
-//    }
-//}

@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e3867ba-2e57-4709-ad06-fccab1bccd2d" name="Changes" comment="added updates">
-      <change afterPath="$PROJECT_DIR$/src/DevOps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyAnotherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tes.java" afterDir="false" />
+    <list default="true" id="6e3867ba-2e57-4709-ad06-fccab1bccd2d" name="Changes" comment="added more exp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SRE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SRE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Technologist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Technologist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667947314682</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added more exp">
+      <created>1667958274486</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667958274486</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="added updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="added updates" />
+    <MESSAGE value="added more exp" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more exp" />
   </component>
 </project>
