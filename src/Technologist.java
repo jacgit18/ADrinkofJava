@@ -22,3 +22,12 @@ public class Technologist
     }
 
 }
+
+
+//abstract class Technologist {
+//    public abstract void study() //abstract method
+//    public void attendClass() //regular method
+//    {
+//        System.out.println("I am attending class");
+//    }
+//}
