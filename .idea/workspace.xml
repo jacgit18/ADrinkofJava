@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e3867ba-2e57-4709-ad06-fccab1bccd2d" name="Changes" comment="added more exp">
+    <list default="true" id="6e3867ba-2e57-4709-ad06-fccab1bccd2d" name="Changes" comment="fixed abstract class">
+      <change afterPath="$PROJECT_DIR$/src/tes2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Technologist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Technologist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667958274486</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed abstract class">
+      <created>1667959068630</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667959068630</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +111,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="added updates" />
     <MESSAGE value="added more exp" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more exp" />
+    <MESSAGE value="fixed abstract class" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed abstract class" />
   </component>
 </project>
