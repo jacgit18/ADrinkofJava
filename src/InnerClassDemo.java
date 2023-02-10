@@ -10,7 +10,7 @@
 // a inner class
 
 // outer class
-class OuterClass
+class OuterClassy
 {
     // static member
     static int outer_x = 10;
@@ -45,10 +45,14 @@ public class InnerClassDemo
     public static void main(String[] args)
     {
         // accessing an inner class
-        OuterClass outerObject = new OuterClass();
-        OuterClass.InnerClass innerObject = outerObject.new InnerClass();
+        runTwo();
+
+    }
+
+    public static void runTwo(){
+        OuterClassy outerObject = new OuterClassy();
+        OuterClassy.InnerClass innerObject = outerObject.new InnerClass();
 
         innerObject.display();
-
     }
 }

@@ -41,10 +41,15 @@ public class StaticNestedClassDemo
     public static void main(String[] args)
     {
         // accessing a static nested class
+        rundone();
+
+    }
+
+    public static void rundone(){
+
         OuterClass.StaticNestedClass nestedObject = new OuterClass.StaticNestedClass();
 
         nestedObject.display();
-
     }
 }
 

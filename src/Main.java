@@ -36,6 +36,16 @@ public class Main {
         sreOne.study();
         sreOne.attendClass();
 
+        InnerClassDemo tes = new InnerClassDemo();
+        tes.runTwo();
+        System.out.println(" ");
+
+
+        StaticNestedClassDemo tesTwo = new StaticNestedClassDemo();
+        tesTwo.rundone();
+
+
+
     }
 }
 
