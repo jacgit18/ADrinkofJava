@@ -10,13 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3867ba-2e57-4709-ad06-fccab1bccd2d" name="Changes" comment="fixed errors">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ReFresher_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDrink/SecondDrink.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDrink/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDrink/test/com/second/testter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/mass/Maintest/innerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReFresher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReFresher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mass/InnerClassDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaticNestedClassDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tes2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InnerClassDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/testrefesh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticNestedClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mass/StaticNestedClassDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +48,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "/home/jac/IdeaProjects/ADrinkofJava/out/artifacts/ReFresher_jar/ReFresher.jar",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
@@ -57,10 +66,13 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\josh\IdeaProjects\ADrinkofJava\src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mass" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in ReFresher">
     <configuration name="InnerClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClassDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.mass.InnerClassDemo" />
       <module name="ReFresher" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,8 +86,32 @@
       </method>
     </configuration>
     <configuration name="StaticNestedClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticNestedClassDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.mass.StaticNestedClassDemo" />
       <module name="ReFresher" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ReFresher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReFresher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="innerTest.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReFresher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mass.Maintest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mass.Maintest" />
+      <option name="MAIN_CLASS_NAME" value="com.mass.Maintest.innerTest" />
+      <option name="METHOD_NAME" value="testOne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,9 +127,13 @@
       <item itemvalue="Application.StaticNestedClassDemo" />
       <item itemvalue="Application.Main" />
       <item itemvalue="JAR Application.jarOfJava" />
+      <item itemvalue="JUnit.All in ReFresher" />
+      <item itemvalue="JUnit.innerTest.testOne" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in ReFresher" />
+        <item itemvalue="JUnit.innerTest.testOne" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InnerClassDemo" />
         <item itemvalue="Application.StaticNestedClassDemo" />
@@ -158,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676060303991</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed errors">
+      <created>1676060344607</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676060344607</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,16 +226,5 @@
     <MESSAGE value="fixed abstract class" />
     <MESSAGE value="fixed errors" />
     <option name="LAST_COMMIT_MESSAGE" value="fixed errors" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/out/production/ReFresher/Main.class</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

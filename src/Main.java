@@ -2,8 +2,9 @@
 //        - Basic ****interfaces found in `java.util.Collection`. It has the Set, List, and Queue interfaces.
 //        - Collection-view interfaces are not authentic collections but enable them to be manipulated as collections found in ****`java.util.Map`. It has a Map interface.
 
-import java.util.Collection;
-import java.util.Map;
+import com.mass.InnerClassDemo;
+import com.mass.StaticNestedClassDemo;
+
 import java.util.Scanner;
 
 

@@ -1,4 +1,4 @@
-//public static String tes( ){
+package com.mass;//public static String tes( ){
 //}
 
 // Java program to demonstrate accessing

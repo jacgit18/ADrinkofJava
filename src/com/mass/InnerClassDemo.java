@@ -1,4 +1,4 @@
-
+package com.mass;
 //    To instantiate an inner class, you must first instantiate the outer class. Then, create the inner object within the outer object with this syntax:
 //
 //        OuterClass.InnerClass innerObject = outerObject.new InnerClass();
@@ -49,10 +49,11 @@ public class InnerClassDemo
 
     }
 
-    public static void runTwo(){
+    public static String runTwo(){
         OuterClassy outerObject = new OuterClassy();
         OuterClassy.InnerClass innerObject = outerObject.new InnerClass();
 
         innerObject.display();
+        return "app";
     }
 }
