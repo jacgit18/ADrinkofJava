@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e3867ba-2e57-4709-ad06-fccab1bccd2d" name="Changes" comment="fixed abstract class">
+    <list default="true" id="6e3867ba-2e57-4709-ad06-fccab1bccd2d" name="Changes" comment="fixed errors">
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/ReFresher_jar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667959068630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed errors">
+      <created>1676060303991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676060303991</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +177,8 @@
     <MESSAGE value="added updates" />
     <MESSAGE value="added more exp" />
     <MESSAGE value="fixed abstract class" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed abstract class" />
+    <MESSAGE value="fixed errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
