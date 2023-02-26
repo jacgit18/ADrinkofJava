@@ -11,14 +11,13 @@ import java.nio.file.*;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-//import static java.nio.file.standardCopyOption;
 
 
 public class MainStream {
     public static void main(String[] args) {
 
-        doTryCatchFinally();
-//        doTryWithResorces();
+//        doTryCatchFinally();
+        doTryWithResorces();
 //        doTryWithResorcesMulti();
 //        doCloseThing();
 
@@ -57,11 +56,11 @@ public class MainStream {
 
     private static void copyToZip(FileSystem zipFs) throws IOException {
 
-        // Path sourceFile = Paths.get("file1.txt");
-        Path sourceFile = FileSystems.getDefault().getPath("file1.txt"); // long way
+         Path sourceFile = Paths.get("file.txt");
+//        Path sourceFile = FileSystems.getDefault().getPath("file1.txt"); // long way
         Path destFile = zipFs.getPath("/file1Copied.txt");
 
-        Files.copy(sourceFile, destFile, standardCopyOption.REPLACE_EXISTING);// FIX
+        Files.copy(sourceFile, destFile, StandardCopyOption.REPLACE_EXISTING);
     }
 
     private static void writeToFileInZip1(FileSystem zipFs, String[] data) throws IOException {
